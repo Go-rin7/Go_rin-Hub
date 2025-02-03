@@ -73,7 +73,7 @@ AddButton(_0x4d5e6f, {
 })
 
 AddButton(_0x4d5e6f, {
-    Name = "Fix lag(bao gồm buff speed cho blox fruit)",
+    Name = "Fix lag(bao gồm chạy nhanh và nhảy cao cho blox fruit)",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
     end
