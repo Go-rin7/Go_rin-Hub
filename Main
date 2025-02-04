@@ -32,7 +32,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 ------ Tab
      local Tab1o = MakeTab({Name = "All game script"})
      local Tab2o = MakeTab({Name = "Blox Fruit script"})
-     local Tab3o = MakeTab({Name = "Comming soon"})
+     local Tab3o = MakeTab({Name = "Fisch"})
 ------- BUTTON
     
     AddButton(Tab2o, {
@@ -76,6 +76,27 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      Name = "W-Azure",
     Callback = function()
 	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })   AddButton(Tab2o, {
+     Name = "Invisible",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Bebo-Mods/BeboScripts/main/UniversalInvis.lua", true))()
+  end
+  })   AddButton(Tab3o, {
+     Name = "Speed hub x",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })   AddButton(Tab3o, {
+     Name = "Banana Hub no key",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaHub.lua"))()
+  end
+  })   AddButton(Tab3o, {
+     Name = "Hoho hub no key",
+    Callback = function()
+	  _G.HohoVersion = "v1"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
   end
   })
 ----- Section 
