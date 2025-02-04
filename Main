@@ -1,97 +1,83 @@
-local _0x1a2b3c = loadstring(game:HttpGet("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua"))
-_0x1a2b3c()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V2/refs/heads/main/UiREDzV2.lua")))()
 
-local _0x2b3c4d = MakeWindow({
-    Hub = {
-        Title = "Gờ rin Hub v1.0",
-        Animation = "Gờ rin Hub"
-    },
-    Key = {
+       local Window = MakeWindow({
+         Hub = {
+         Title = "Gờ rin Hub v1.0",
+         Animation = "Gờ rin Hub"
+         },
+        Key = {
         KeySystem = false,
         Title = "",
         Description = "",
         KeyLink = "",
         Keys = {""},
         Notifi = {
-            Notifications = true,
-            CorrectKey = "",
-            Incorrectkey = "",
-            CopyKeyLink = ""
-        }
+        Notifications = false,
+        CorrectKey = "",
+       Incorrectkey = "",
+       CopyKeyLink = ""
+      }
     }
-})
+  })
 
-local _0x3c4d5e = MinimizeButton({
-    Image = "http://www.roblox.com/asset/?id=112082203484238",
-    Size = {50, 50},
-    Color = Color3.fromRGB(10, 10, 10),
-    Corner = true,
-    Stroke = false,
-    StrokeColor = Color3.fromRGB(255, 0, 0)
-})
-
+       MinimizeButton({
+       Image = "http://www.roblox.com/asset/?id=112082203484238",
+       Size = {50, 50},
+       Color = Color3.fromRGB(10, 10, 10),
+       Corner = true,
+       Stroke = false,
+       StrokeColor = Color3.fromRGB(255, 0, 0)
+      })
+      
 ------ Tab
-local _0x4d5e6f = MakeTab({Name = "All game script"})
-local _0x5e6f7g = MakeTab({Name = "Blox Fruit script"})
-local _0x6f7g8h = MakeTab({Name = "Comming soon"})
-
------- BUTTON
-AddButton(_0x5e6f7g, {
-    Name = "Hoho Hub",
+     local Tab1o = MakeTab({Name = "All game script"})
+     local Tab2o = MakeTab({Name = "Blox Fruit script"})
+     local Tab3o = MakeTab({Name = "Comming soon"})
+------- BUTTON
+    
+    AddButton(Tab2o, {
+     Name = "Hoho Hub",
     Callback = function()
-        _G.HohoVersion = "v1"
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
-    end
-})
-
-AddButton(_0x4d5e6f, {
-    Name = "Arceus X",
+	 _G.HohoVersion = "v1"
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
+  end
+  })
+     AddButton(Tab1o, {
+     Name = "Arceus X",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
-    end
-})
-
-AddButton(_0x4d5e6f, {
-    Name = "Unc checker",
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/chillz-workshop/main/Arceus%20X%20V3"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "Unc checker",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/Go-rin7/UNC-checker/refs/heads/main/Main"))()
-    end
-})
-
-AddButton(_0x4d5e6f, {
+	    loadstring(game:HttpGet("https://raw.githubusercontent.com/Go-rin7/UNC-checker/refs/heads/main/Main"))()
+  end
+  })   AddButton(Tab1o, {
     Name = "Infinite Yield",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-    end
-})
-
-AddButton(_0x4d5e6f, {
-    Name = "Dex",
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "Dex",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
-    end
-})
-
-AddButton(_0x4d5e6f, {
-    Name = "Fix lag(bao gồm chạy nhanh và nhảy cao cho blox fruit)",
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/infyiff/backup/main/dex.lua"))()
+  end
+  })   AddButton(Tab1o, {
+     Name = "Fix lag(bao gồm buff speed cho blox fruit)",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
-    end
-})
-
-AddButton(_0x5e6f7g, {
-    Name = "Redz",
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
+  end
+  })   AddButton(Tab2o, {
+     Name = "Redz",
     Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
-    end
-})
-
-AddButton(_0x5e6f7g, {
-    Name = "W-Azure",
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/refs/heads/main/Source.lua"))()
+  end
+  })   AddButton(Tab2o, {
+     Name = "W-Azure",
     Callback = function()
-        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
-    end
-})
-
------ Section
-local _0x7g8h9i = AddSection(_0x6f7g8h, {"nothing here"})
+	  loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b2169cf53bc6104dabe8e19562e5cc2.lua"))()
+  end
+  })
+----- Section 
+   
+   Section = AddSection(Tab3o, {"nothing here"})
