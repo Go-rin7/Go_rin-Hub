@@ -317,11 +317,7 @@ runService.Heartbeat:Connect(Update)
 	  _G.HohoVersion = "v1"
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI"))()
   end
-  })   AddButton(Tab2o, {
-     Name = "Min hub",
-    Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/JonnyCheeser/bloxfruits/main/minhubv4"))()
-  end
+  })
 ----- Section 
    
    Section = AddSection(Tab4o, {"nothing here"})
