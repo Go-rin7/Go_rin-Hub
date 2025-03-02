@@ -33,7 +33,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
      local Tab1o = MakeTab({Name = "All game script"})
      local Tab2o = MakeTab({Name = "Blox Fruit script"})
      local Tab3o = MakeTab({Name = "Fisch"})
-     local Tab4o = MakeTab({Name = "Fisch"})
+     local Tab4o = MakeTab({Name = "Doors"})
      local Tab5o = MakeTab({Name = "???"})
 
 ------- BUTTON
@@ -107,14 +107,54 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Agadigas/Doors/refs/heads/main/Glitched%20Scanner%20by%20Custom%20Doors"))()
   end
   })   AddButton(Tab4o, {
-     Name = "VIRIDIS RIFT",
+     Name = "Bottle of moon light",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Agadigas/Doors/refs/heads/main/VIRIDIS%20RIFT%20ORIGINAL"))()
+	  loadstring(game:HttpGet('https://gist.githubusercontent.com/IdkMyNameLoll/04d7dd5e02688624b958b8c2604b924c/raw/9e86b34249f44ed2dd433176e67daaf3db30cde8/MoonBottle'))()
   end
   })   AddButton(Tab4o, {
-     Name = "Gliched Tablet",
+     Name = "Scanner",
     Callback = function()
-	  loadstring(game:HttpGet("https://raw.githubusercontent.com/Agadigas/Doors/refs/heads/main/Wonder%20Bottle%20OFICIAL"))()
+	 loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/main/Scanner.lua"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "Bottle of moon spiral light",
+    Callback = function()
+	  loadstring(game:HttpGet('https://gist.githubusercontent.com/IdkMyNameLoll/8b05c837bea9effac2554340465b4be1/raw/3f3be0ee72e7f153db39a16a40fa63dce6cde72d/SpiralBottle'))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "Barrel of star light",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/Scripts/refs/heads/main/StarJug.lua"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "Rusty hotel",
+    Callback = function()
+	  loadstring(game:HttpGet("https://gist.githubusercontent.com/T0mix1608/ff0a607a510996f361c230a2de85f9e8/raw/7096f3796a8feb208b6c0b9029686150e878b7a1/gistfile1.txt", true))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "Seek gun",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/persopoiu/scripts/main/seekgun.lua"))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "Golden flashlight",
+    Callback = function()
+	  loadstring(game:HttpGet(("https://raw.githubusercontent.com/aadyian9000/the-thing/main/GoldenGummyFlashlight.lua"),true))()
+  end
+  })   AddButton(Tab4o, {
+     Name = "Guiding shakelight",
+    Callback = function()
+	  local Curious = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Curious%20Shakelight.rbxm?raw=true'
+local Grassful_Flashlight = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Grassful%20Flashlight.rbxm?raw=true'
+local Grassful_Shakelight = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Grassful%20Shakelight.rbxm?raw=true'
+local Guiding = 'https://github.com/Matthew201322/Doors-Scriptee/blob/main/Guiding%20Shakelight.rbxm?raw=true'
+local Mischievous = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Mischievous%20Shakelight.rbxm?raw=true'
+local Wooden = 'https://github.com/Matthew201322/Doors-Scriptee/blob/Shakelights/Wooden%20Shakelight.rbxm?raw=true'
+
+-- the shakelights omg
+
+_G.Model = Guiding
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-Scriptee/refs/heads/main/Shakelight.luau", true))()
   end
   })
 
