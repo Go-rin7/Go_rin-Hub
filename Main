@@ -160,7 +160,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Matthew201322/Doors-S
 
 ----- Section 
    
-   Section = AddSection(Tab5o, {"new update log
-add doors tab
-delete invisible
-change fix lag to blox fruit tab"})
+   Section = AddSection(Tab5o, {"new update log:"})
+   Section = AddSection(Tab5o, {"+add doors tab"})
+   Section = AddSection(Tab5o, {"-delete invisible"})
+   Section = AddSection(Tab5o, {"*change fix lag to blox fruit tab"})
